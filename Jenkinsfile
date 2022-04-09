@@ -34,11 +34,11 @@ pipeline {
         stage('Push image to docker hub'){
             steps {
                 echo 'docker tag'
-                sh 'docker tag calc priyanko/calc:latest'
+                sh 'docker tag calc priyanko27/calc:latest'
                 echo 'docker login'
                 sh 'echo $DOCKERHUB_CREDENTIALS_PSW | docker login -u $DOCKERHUB_CREDENTIALS_USR --password-stdin'
                 echo 'Pushing image to hub'
-                sh 'docker push priyanko/calc'
+                sh 'docker push priyanko27/calc'
                 echo 'docker logout'
                 sh 'docker logout'
             }

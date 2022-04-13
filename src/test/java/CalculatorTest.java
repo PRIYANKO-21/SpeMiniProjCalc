@@ -5,35 +5,35 @@ public class CalculatorTest {
 
     @Test
     public void testSqrt(){
-        Calculator scientificCalculator=new Calculator();
-        double actual=scientificCalculator.squareroot(25.0);
-        double expected=5.0;
+        Calculator calculator=new Calculator();
+        double actual=calculator.squareroot(36.0);
+        double expected=6.0;
         Assertions.assertEquals(expected,actual);
     }
 
     @Test
     public void testNaturalLog(){
-        Calculator scientificCalculator=new Calculator();
+        Calculator calculator=new Calculator();
         double num=145.256;
-        double actual= scientificCalculator.naturalLog(num);
+        double actual= calculator.naturalLog(num);
         double expected=4.978497702968366;
         Assertions.assertEquals(expected,actual);
     }
 
     @Test
     public void testFactorial(){
-        Calculator scientificCalculator=new Calculator();
-        int actual= scientificCalculator.factorial(5);
-        int expected=120;
+        Calculator calculator=new Calculator();
+        int actual= calculator.factorial(4);
+        int expected=24;
         Assertions.assertEquals(expected,actual);
     }
 
     @Test
     public void testPower(){
-        Calculator scientificCalculator=new Calculator();
-        double num=3.0;
-        double actual=scientificCalculator.power(num,num);
-        double expected=27.0;
+        Calculator calculator=new Calculator();
+        double num=2.0;
+        double actual=calculator.power(num,num);
+        double expected=4.0;
         Assertions.assertEquals(expected,actual);
     }
 }

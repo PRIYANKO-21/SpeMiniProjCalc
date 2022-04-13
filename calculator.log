@@ -1,0 +1,36 @@
+13/Apr/2022:12:40:25 +0530 [main] INFO  Calculator - [NATURAL LOG] - 145.256
+13/Apr/2022:12:40:25 +0530 [main] INFO  Calculator - [RESULT NATURAL LOG] - 4.978497702968366
+13/Apr/2022:12:40:25 +0530 [main] INFO  Calculator - [FACTORIAL] - 4
+13/Apr/2022:12:40:25 +0530 [main] INFO  Calculator - [RESULT FACTORIAL] - 24
+13/Apr/2022:12:40:25 +0530 [main] INFO  Calculator - [POWER FUNCTION] - 2.0^2.0
+13/Apr/2022:12:40:25 +0530 [main] INFO  Calculator - [RESULT POWER FUNCTION] - 4.0
+13/Apr/2022:12:40:25 +0530 [main] INFO  Calculator - [SQUARE ROOT] - 36.0
+13/Apr/2022:12:40:25 +0530 [main] INFO  Calculator - [RESULT SQUARE ROOT] - 6.0
+13/Apr/2022:12:40:40 +0530 [main] INFO  Calculator - [SQUARE ROOT] - 100.0
+13/Apr/2022:12:40:40 +0530 [main] INFO  Calculator - [RESULT SQUARE ROOT] - 10.0
+13/Apr/2022:12:40:44 +0530 [main] INFO  Calculator - [FACTORIAL] - 7
+13/Apr/2022:12:40:44 +0530 [main] INFO  Calculator - [RESULT FACTORIAL] - 5040
+13/Apr/2022:12:40:51 +0530 [main] INFO  Calculator - [NATURAL LOG] - 237.0
+13/Apr/2022:12:40:51 +0530 [main] INFO  Calculator - [RESULT NATURAL LOG] - 5.4680601411351315
+13/Apr/2022:12:40:59 +0530 [main] INFO  Calculator - [POWER FUNCTION] - 5.0^3.0
+13/Apr/2022:12:40:59 +0530 [main] INFO  Calculator - [RESULT POWER FUNCTION] - 125.0
+13/Apr/2022:12:46:10 +0530 [main] INFO  Calculator - [SQUARE ROOT] - 25.0
+13/Apr/2022:12:46:10 +0530 [main] INFO  Calculator - [RESULT SQUARE ROOT] - 5.0
+13/Apr/2022:12:47:43 +0530 [main] INFO  Calculator - [FACTORIAL] - 5
+13/Apr/2022:12:47:43 +0530 [main] INFO  Calculator - [RESULT FACTORIAL] - 120
+13/Apr/2022:12:59:13 +0530 [main] INFO  Calculator - [POWER FUNCTION] - 2.0^2.0
+13/Apr/2022:12:59:13 +0530 [main] INFO  Calculator - [RESULT POWER FUNCTION] - 4.0
+13/Apr/2022:12:59:13 +0530 [main] INFO  Calculator - [SQUARE ROOT] - 36.0
+13/Apr/2022:12:59:13 +0530 [main] INFO  Calculator - [RESULT SQUARE ROOT] - 6.0
+13/Apr/2022:12:59:13 +0530 [main] INFO  Calculator - [NATURAL LOG] - 145.256
+13/Apr/2022:12:59:13 +0530 [main] INFO  Calculator - [RESULT NATURAL LOG] - 4.978497702968366
+13/Apr/2022:12:59:13 +0530 [main] INFO  Calculator - [FACTORIAL] - 4
+13/Apr/2022:12:59:13 +0530 [main] INFO  Calculator - [RESULT FACTORIAL] - 24
+13/Apr/2022:13:03:20 +0530 [main] INFO  Calculator - [SQUARE ROOT] - 245.0
+13/Apr/2022:13:03:20 +0530 [main] INFO  Calculator - [RESULT SQUARE ROOT] - 15.652475842498529
+13/Apr/2022:13:03:46 +0530 [main] INFO  Calculator - [FACTORIAL] - 6
+13/Apr/2022:13:03:46 +0530 [main] INFO  Calculator - [RESULT FACTORIAL] - 720
+13/Apr/2022:13:03:56 +0530 [main] INFO  Calculator - [NATURAL LOG] - 213.0
+13/Apr/2022:13:03:56 +0530 [main] INFO  Calculator - [RESULT NATURAL LOG] - 5.3612921657094255
+13/Apr/2022:13:04:18 +0530 [main] INFO  Calculator - [POWER FUNCTION] - 3.0^4.0
+13/Apr/2022:13:04:18 +0530 [main] INFO  Calculator - [RESULT POWER FUNCTION] - 81.0

@@ -1,12 +1,16 @@
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.util.Scanner;
 
 public class Calculator {
 
+    private static final Logger logger= LogManager.getLogger(Calculator.class);
     public static void main(String[] args){
         //System.out.print("Helllo");
         Scanner scanner=new Scanner(System.in);
-        Calculator scientificCalculator=new Calculator();
-        int choice=0;
+        Calculator calculator=new Calculator();
+        int ch=0;
         boolean done=false;
         while(!done){
             System.out.print("\n------------Scientific Calculator-----------");
@@ -16,40 +20,40 @@ public class Calculator {
             System.out.print("\n4-Power function");
             System.out.print("\n5-Exit");
             System.out.print("\nEnter choice:");
-            choice= scanner.nextInt();
-            switch(choice){
+            ch= scanner.nextInt();
+            switch(ch){
                 case 1:
                     System.out.print("\nEnter a number:");
                     double number=scanner.nextDouble();
-                    double sqrt=scientificCalculator.squareroot(number);
+                    double sqrt=calculator.squareroot(number);
                     System.out.print("\nSquare root of "+number+" = "+sqrt);
                     break;
 
                 case 2:
-                    System.out.print("\nEnter integer number:");
+                    System.out.print("\nEnter an integer number:");
                     int num=scanner.nextInt();
-                    int factorial= scientificCalculator.factorial(num);
+                    int factorial= calculator.factorial(num);
                     System.out.print("\nFactorial of "+num+" = "+factorial);
                     break;
 
                 case 3:
                     System.out.print("\nEnter a number:");
                     double num1=scanner.nextDouble();
-                    double log=scientificCalculator.naturalLog(num1);
+                    double log=calculator.naturalLog(num1);
                     System.out.print("\nNatural log of "+num1+" = "+log);
                     break;
 
                 case 4:
                     System.out.print("\nEnter a number:");
                     double num2=scanner.nextDouble();
-                    System.out.print("\nEnter the power:");
+                    System.out.print("\nEnter power:");
                     double num3=scanner.nextDouble();
-                    double power=scientificCalculator.power(num2,num3);
+                    double power=calculator.power(num2,num3);
                     System.out.print("\n "+num2+" to the power of "+num3+" = "+power);
                     break;
 
                 case 5:
-                    System.out.print("\nExiting......");
+                    System.out.print("\nExiting Application.....");
                     done=true;
                     break;
             }
@@ -58,23 +62,31 @@ public class Calculator {
     }
 
     public double squareroot(double number){
+        logger.info("[SQUARE ROOT] - "+number);
+        logger.info("[RESULT SQUARE ROOT] - "+Math.sqrt(number));
         return Math.sqrt(number);
     }
 
     public int factorial(int number){
+        logger.info("[FACTORIAL] - "+number);
         int fact=1;
         while(number>0){
             fact=fact*number;
             number--;
         }
+        logger.info("[RESULT FACTORIAL] - "+fact);
         return fact;
     }
 
     public double naturalLog(double number){
+        logger.info("[NATURAL LOG] - "+number);
+        logger.info("[RESULT NATURAL LOG] - "+Math.log(number));
         return Math.log(number);
     }
 
     public double power(double number,double pow){
+        logger.info("[POWER FUNCTION] - "+number+"^"+pow);
+        logger.info("[RESULT POWER FUNCTION] - "+Math.pow(number,pow));
         return Math.pow(number,pow);
     }
 }

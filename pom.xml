@@ -23,7 +23,7 @@
                         <goals>
                             <goal>single</goal>
                         </goals>
-                        <configuration>
+                         <configuration>
                             <archive>
                                 <manifest>
                                     <mainClass>Calculator</mainClass>

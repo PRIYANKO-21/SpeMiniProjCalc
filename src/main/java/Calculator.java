@@ -60,13 +60,13 @@ public class Calculator {
         }
 
     }
-
+//method to get sqr root
     public double squareroot(double number){
         logger.info("[SQUARE ROOT] - "+number);
         logger.info("[RESULT SQUARE ROOT] - "+Math.sqrt(number));
         return Math.sqrt(number);
     }
-
+//method to get factorial
     public int factorial(int number){
         logger.info("[FACTORIAL] - "+number);
         int fact=1;
@@ -74,16 +74,16 @@ public class Calculator {
             fact=fact*number;
             number--;
         }
-        logger.info("[RESULT FACTORIAL] - "+fact);
+         logger.info("[RESULT FACTORIAL] - "+fact);
         return fact;
     }
-
+//method to get natural log
     public double naturalLog(double number){
         logger.info("[NATURAL LOG] - "+number);
         logger.info("[RESULT NATURAL LOG] - "+Math.log(number));
         return Math.log(number);
     }
-
+//method to get power
     public double power(double number,double pow){
         logger.info("[POWER FUNCTION] - "+number+"^"+pow);
         logger.info("[RESULT POWER FUNCTION] - "+Math.pow(number,pow));

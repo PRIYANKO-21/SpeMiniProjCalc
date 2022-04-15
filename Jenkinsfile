@@ -25,8 +25,8 @@ pipeline {
             }
         }
         stage('Build image'){
-            steps {
-                echo 'creating docker image'
+             steps {
+                echo 'creating docker  image'
                 sh 'docker build -t calc:latest .'
                 echo 'docker image created'
             }

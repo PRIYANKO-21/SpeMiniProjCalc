@@ -1,5 +1,5 @@
 ---
-- name: Push docker image to docker hub
+-  name: Push docker image to dockerhub
   hosts: localhost
   connection: local
   remote_user: priyanko-ubuntu-20
